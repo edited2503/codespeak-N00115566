@@ -1,0 +1,122 @@
+		body 
+{
+	background: #ebebeb;
+}
+
+a 
+{ 
+	color: #663399;
+
+}
+
+.active
+{ 
+	
+	border-bottom: 2px solid #DB0A5B;
+
+}
+
+a:hover 
+{
+	color: #DB0A5B; 
+	border-bottom: 2px solid #DB0A5B;
+}
+		
+.nav-top
+{
+	-webkit-box-shadow: 0px 5px 13px 0px rgba(50, 50, 50, 0.15);
+	-moz-box-shadow:  0px 5px 13px 0px rgba(50, 50, 50, 0.15);
+		box-shadow:  0px 5px 13px 0px rgba(50, 50, 50, 0.15);
+		
+}
+		
+.footer 
+{	
+	background: #fff;
+	padding: 20px;
+	position: fixed;
+	bottom: 0; width: 100%;
+	padding-right: 50px;
+	-webkit-box-shadow: 0px -5px 13px 0px rgba(50, 50, 50, 0.15);
+	-moz-box-shadow:    0px -5px 13px 0px rgba(50, 50, 50, 0.15);
+	box-shadow:         0px -5px 13px 0px rgba(50, 50, 50, 0.15);
+
+}
+
+.btn
+{
+	background: #663399;
+	color:#fff;
+
+}
+
+.jumbotron
+{	
+	margin-top: 55px;
+	padding-bottom: 100px;
+	background: #663399;
+	color:#fff;
+	
+}
+
+#messages 
+{ 
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	margin-top: 55px;
+
+}
+      
+#messages li 
+{ 
+	padding: 5px 10px;
+
+}
+#messages li:nth-child(even) 
+{
+	border-radius: 50px 50px 50px 50px;
+	background: #663399;
+	color:#fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+} 
+#messages li:nth-child(odd) 
+{
+	border-radius: 50px 50px 50px 50px;
+	background: #DB0A5B;
+	color:#fff;
+
+} 
+			
+#messages li:first-child { 
+    background-color: #DB0A5B;
+}
+
+.chat-background 
+{
+	background: #fff;
+	padding-bottom: 40%;
+}		
+
+.col-lg-4
+{
+	margin-bottom: 25px;
+
+}
+			  
+.list-group-item
+{
+	-webkit-box-shadow: 5px 3px 11px 0px rgba(50, 50, 50, 0.31);
+	-moz-box-shadow:    5px 3px 11px 0px rgba(50, 50, 50, 0.31);
+	box-shadow:         5px 3px 11px 0px rgba(50, 50, 50, 0.31);
+			  
+}
+
+.overlay
+{
+	margin-top: -80px;
+			  
+}
